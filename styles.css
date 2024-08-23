@@ -1,0 +1,82 @@
+body {
+  text-align: center;
+  background-color: rgb(66, 0, 0);
+}
+
+#level-title {
+  font-family: "Jersey 10", sans-serif;
+  font-size: 6rem;
+  font-style: normal;
+  margin:  3%;
+  color: #bd9a00;
+}
+
+.container {
+  display: block;
+  align-content: center;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 10px;
+  align-content: center;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 30%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px rgb(170, 0, 99);
+  background-color: rgb(163, 0, 196);
+}
+@media (max-width: 768px) {
+  .btn {
+    width: 80px;
+    height: 80px;
+  }
+  
+}
+@media (min-width: 768px) {
+  .btn {
+    width: 150px;
+    height: 150px;
+  }
+  
+}
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: #bd9a00;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 25px;
+}
+
